@@ -1,5 +1,24 @@
+# Python
 __pycache__/
-*.pyc
-data/faces/*
-.env
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
 .venv/
+
+# Face data - DO NOT upload
+data/faces/
+data/embeddings/
+
+# Test outputs
+aligned_test.jpg
+
+# Large model package
+models/buffalo_l.zip
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
